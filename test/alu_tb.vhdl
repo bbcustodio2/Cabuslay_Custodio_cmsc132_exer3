@@ -2,13 +2,13 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use IEEE.numeric_std.all;
 
-entity main_controller is
+entity alu_tb is
     port ( selector, input_bit : in std_logic; 
         out0, out1, carry_out : out std_logic        
     );
-end main_controller;
+end alu_tb;
 
-architecture structure of main_controller is
+architecture structure of alu_tb is
     --signals for the output/input
     signal k0, k1, c_out: std_logic;
     signal sel : unsigned (2 downto 0);
@@ -48,7 +48,7 @@ architecture structure of main_controller is
         -- iterate from '000' to '111' and store it in sel
         for count in 0 to 7 loop
             sel <= test_in;
-            wait for 1 ns;
+            wait for 10 ns;
             test_in := test_in + 1;
 
             --checks what operation is done on the current iteration

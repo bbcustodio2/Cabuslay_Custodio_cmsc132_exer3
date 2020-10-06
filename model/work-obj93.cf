@@ -1,0 +1,61 @@
+v 4
+file . "xor2bit.vhdl" "a3129fae2c53e363716be963f365dfadcc9c5cd0" "20201006065536.868":
+  entity xor2bit at 1( 0) + 0 on 125;
+  architecture behaviour of xor2bit at 10( 231) + 0 on 126;
+file . "xnor.vhdl" "75f9665863d459534333774c300b4eb8651ab0e2" "20201006065751.337":
+  entity xnor2 at 1( 0) + 0 on 149;
+  architecture behaviour of xnor2 at 8( 151) + 0 on 150;
+file . "or2bit.vhdl" "760b7086ba88a8da49193f4275935d03556563de" "20201006065526.792":
+  entity or2bit at 1( 0) + 0 on 123;
+  architecture behaviour of or2bit at 10( 228) + 0 on 124;
+file . "ones_complement.vhdl" "bc6b84094ae097ea02d2f107b8cd1e057623c18b" "20201006065605.084":
+  entity subtract1 at 1( 0) + 0 on 131;
+  architecture structure of subtract1 at 11( 271) + 0 on 132;
+file . "not.vhdl" "f7dc66730aca450b485018ff597582999d34d995" "20201006065639.262":
+  entity not2 at 1( 0) + 0 on 137;
+  architecture behaviour of not2 at 8( 146) + 0 on 138;
+file . "nand.vhdl" "b534498cc1a4e8bd9a1b1467d50daa802ef57cfe" "20201006065801.211":
+  entity nand2 at 1( 0) + 0 on 151;
+  architecture structure of nand2 at 8( 151) + 0 on 152;
+file . "four_input_and.vhdl" "65e0591e1a62ca7924291dd557a6bd949bfe6363" "20201006065649.459":
+  entity four_input_and at 1( 0) + 0 on 139;
+  architecture behaviour of four_input_and at 9( 195) + 0 on 140;
+file . "and2bit.vhdl" "55dfd8cc1d1b8c74b00914d8394b43b22b8368a5" "20201006065516.291":
+  entity and2bit at 1( 0) + 0 on 121;
+  architecture behaviour of and2bit at 11( 228) + 0 on 122;
+file . "addition.vhdl" "f2b028dc2a7432e42a08ae16dcd611c0bbe491a8" "20201006065555.861":
+  entity addition at 1( 0) + 0 on 129;
+  architecture structure of addition at 11( 228) + 0 on 130;
+file . "main_controller.vhdl" "dc69e32a37f991785bb6d4bde72c92ad89aa0e80" "20201006071536.299":
+  entity main_controller at 1( 0) + 0 on 155;
+  architecture structure of main_controller at 11( 237) + 0 on 156;
+file . "alu.vhdl" "5a84244700a6117c3d3bc4e58cc8878a9ec54bc3" "20201006065453.280":
+  entity alu at 1( 0) + 0 on 119;
+  architecture structure of alu at 11( 237) + 0 on 120;
+file . "and.vhdl" "3237e21eb652cbe4d86d73aaee8cdcff3f8c2b64" "20201006065714.798":
+  entity and2 at 1( 0) + 0 on 143;
+  architecture behaviour of and2 at 9( 149) + 0 on 144;
+file . "final_or_gate.vhdl" "edc17c77eb8ad320a1cffbe904eb5a7ee6fa9753" "20201006065701.900":
+  entity final_or_gate at 1( 0) + 0 on 141;
+  architecture behaviour of final_or_gate at 9( 202) + 0 on 142;
+file . "increment.vhdl" "5eba4c13f97c69daae5179b48814aaf16dee48db" "20201006065629.778":
+  entity increment at 1( 0) + 0 on 135;
+  architecture structure of increment at 11( 241) + 0 on 136;
+file . "nor.vhdl" "f650306231f2c1f0d7a6179aeedd4508f593db0e" "20201006065811.407":
+  entity nor2 at 1( 0) + 0 on 153;
+  architecture structure of nor2 at 8( 148) + 0 on 154;
+file . "not2bit.vhdl" "ac7c515a88a1c57e040de07c5f77c3937ecf979b" "20201006065546.718":
+  entity not2bit at 1( 0) + 0 on 127;
+  architecture behaviour of not2bit at 10( 215) + 0 on 128;
+file . "or.vhdl" "66a76771d49c7b74f44e32ad665cb18a717977d2" "20201006065724.919":
+  entity or2 at 1( 0) + 0 on 145;
+  architecture behaviour of or2 at 8( 145) + 0 on 146;
+file . "twos_complement.vhdl" "ca34affea015e507cd63d7ff4acf96c6587ab0a9" "20201006065619.197":
+  entity subtract2 at 1( 0) + 0 on 133;
+  architecture structure of subtract2 at 11( 271) + 0 on 134;
+file . "xor.vhdl" "3e685c2178d28fe097cfdd56edfbff8015779f08" "20201006065741.868":
+  entity xor2 at 1( 0) + 0 on 147;
+  architecture behaviour of xor2 at 8( 148) + 0 on 148;
+file . "alu_tb.vhdl" "496192709ffaeab614ed76123583a2f5f80fba4a" "20201006072139.787":
+  entity alu_tb at 1( 0) + 0 on 159;
+  architecture structure of alu_tb at 11( 219) + 0 on 160;
